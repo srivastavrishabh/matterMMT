@@ -13,7 +13,7 @@ const Header1 = () => {
   return (
     <section className="header1-wrapper">
       <div className="header1">
-        <a className="logo" to={"/"}>
+        <a className="logo" href={"/"}>
           <img src={logo} alt="logo-mmt" />
         </a>
         <div className="right-sec">

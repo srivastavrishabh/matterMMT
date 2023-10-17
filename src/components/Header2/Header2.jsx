@@ -27,61 +27,61 @@ const Header2 = () => {
   return (
     <section className="header2-wrapper">
       <div className="header2">
-        <a className="logo" to={"/"}>
+        <a className="logo" href={"/"}>
           <img src={logo} alt="logo-mmt" />
         </a>
         <section className="navigation-wrapper-2">
           <div className="navigation">
             <span>
-              <a className="nav-link" to={"/flights"}>
+              <a className="nav-link" href={"#"}>
                 <MdOutlineFlight className="icon" />
                 <span>Flights</span>
               </a>
             </span>
             <span>
-              <a className="nav-link" to={"/hotels"}>
+              <a className="nav-link" href={"#"}>
                 <RiHotelLine className="icon" />
                 <span>Hotels</span>
               </a>
             </span>
             <span>
-              <a className="nav-link" to={"/home"}>
+              <a className="nav-link" href={"#"}>
                 <MdOutlineMapsHomeWork className="icon" />
                 <span>Homestays</span>
               </a>
             </span>
             <span>
-              <a className="nav-link" to={"/home"}>
+              <a className="nav-link" href={"#"}>
                 <RiHotelLine className="icon" />
                 <span>Holiday Packages</span>
               </a>
             </span>
             <span>
-              <a className="nav-link" to={"/trains"}>
+              <a className="nav-link" href={"#"}>
                 <FaTrain className="icon" />
                 <span>Trains</span>
               </a>
             </span>
             <span>
-              <a className="nav-link" to={"/home"}>
+              <a className="nav-link" href={"#"}>
                 <MdDirectionsBus className="icon" />
                 <span>Buses</span>
               </a>
             </span>
             <span>
-              <a className="nav-link" to={"/home"}>
+              <a className="nav-link" href={"#"}>
                 <AiOutlineCar className="icon" />
                 <span>Cabs</span>
               </a>
             </span>
             <span>
-              <a className="nav-link" to={"/home"}>
+              <a className="nav-link" href={"#"}>
                 <VscGraphLine className="icon" />
                 <span>Forex</span>
               </a>
             </span>
             <span>
-              <a className="nav-link" to={"/home"}>
+              <a className="nav-link" href={"#"}>
                 <MdHiking className="icon" />
                 <span>Activities</span>
               </a>

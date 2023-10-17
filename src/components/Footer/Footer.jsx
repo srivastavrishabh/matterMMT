@@ -10,17 +10,17 @@ export default function Footer() {
 				<div className="left">
 					<div className="socials">
 						<a
-							to={'https://github.com/srivastavrishabh'}
+							href={'https://github.com/srivastavrishabh'}
 							target={'_blank'}>
 							<FaGithub />
 						</a>
 						<a
-							to={'#'}
+							href={'#'}
 							target={'_blank'}>
 							<FaTwitter />
 						</a>
 						<a
-							to={'#'}
+							href={'https://www.linkedin.com/in/rishabh-srivastav-5b1649147/'}
 							target={'_blank'}>
 							<FaLinkedin />
 						</a>
