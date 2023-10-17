@@ -1,9 +1,6 @@
 
 import FlightInputBox from '../FlightInputBox/FlightInputBox';
 import './Home.css';
-// import FlightInputBox from '../../components/FlightInputBox/FlightInputBox';
-// import Offers from '../../components/Offers/Offers';
-// import Promo from '../../components/Promo/Promo';
 const Home = () => {
 	return (
 		<section className="home-wrapper">

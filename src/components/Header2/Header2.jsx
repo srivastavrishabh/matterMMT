@@ -1,15 +1,9 @@
 import "./Header2.css";
-// import { Link, a } from 'react-router-dom';
 import logo from "./../../assets/img/logo2.png";
 import makemytrip2 from "./../../assets/img/makemytrip2.svg";
 import { BiChevronDown } from "react-icons/bi";
-// import { useSelector } from 'react-redux';
 import {
-  // FaAngleDown,
-  // FaAngleRight,
-  FaTrain,
-  // FaBars,
-  // FaTimes,
+  FaTrain
 } from "react-icons/fa";
 import {
   MdOutlineFlight,
@@ -22,7 +16,6 @@ import { AiOutlineCar } from "react-icons/ai";
 import { VscGraphLine } from "react-icons/vsc";
 
 const Header2 = () => {
-  // const { auth, userData } = useSelector(state => state.user.user);
 
   return (
     <section className="header2-wrapper">

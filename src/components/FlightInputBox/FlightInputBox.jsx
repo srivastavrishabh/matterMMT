@@ -4,7 +4,6 @@ import { TbArrowsExchange } from "react-icons/tb";
 import { BiChevronDown } from "react-icons/bi";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import Navigation from "../Navigation/Navigation";
-// import date from 'date-and-time';
 
 const FlightInputBox = ({ flights, setFilteredFlight }) => {
   const [type, setType] = useState("oneway");
@@ -132,28 +131,7 @@ const FlightInputBox = ({ flights, setFilteredFlight }) => {
                   </div>
                   <div>Tuesday</div>
                 </div>
-                {/* <div className="date">
-									<div>
-										<span>
-											{date.format(
-												new Date(state.departure),
-												`D `
-											)}
-										</span>
-										<p>
-											{date.format(
-												new Date(state.departure),
-												`MMM'YY`
-											)}
-										</p>
-									</div>
-									<div>
-										{date.format(
-											new Date(state.departure),
-											`dddd`
-										)}
-									</div>
-								</div> */}
+                
                 <input
                   className={"date-input"}
                   type="date"
