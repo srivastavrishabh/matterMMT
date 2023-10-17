@@ -1,0 +1,44 @@
+.FooterText-wrapper {
+	width: 100%;
+	background: #E7E7E7;
+	padding: 4rem;
+  }
+  .footerText {
+	color: #000;
+	width: 90%;
+	height: 100%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+  }
+  /* .landingContainer{
+    background: #e7e7e7;
+    padding: 60px 0;
+  } */
+.makeFlex {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-direction: row;
+  align-items: stretch;
+
+}
+.descWidth{
+  max-width: 33%;
+}
+.aboutDesc {
+    max-width: 33%;
+    margin-right: 3%;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.descHeading{
+  font-size: 16px;
+  font-weight:700;
+  margin-bottom: 25px;
+  
+}
+.descText{
+  font-size: 12px;
+}

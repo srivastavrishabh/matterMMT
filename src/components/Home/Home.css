@@ -2,76 +2,63 @@
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-
-	.home {
-		width: 100%;
-		height: 570px;
-		background: var(--bg-input);
-
-		.container {
-			width: 80%;
-			margin: auto;
-		}
-	}
-
-	.slab {
-		display: grid;
-		grid-template-columns: 1fr 1fr 2fr 1.5fr 1fr;
-		width: 80%;
-		margin: auto;
-		background: #fff;
-		border-radius: 100px;
-		position: relative;
-		top: 0;
-		transform: translateY(-50%);
-		box-shadow: 0 0 10px #0000003a;
-
-		& > div {
-			display: flex;
-			align-items: center;
-			justify-content: flex-start;
-			flex-direction: row;
-			border-right: 1px solid #aaaaaa8c;
-			height: 60px;
-			padding-left: 1rem;
-			cursor: pointer;
-			gap: 10px;
-
-			&:hover {
-				font-weight: 700;
-				background: #fef6e8;
-			}
-
-			&:first-child {
-				border-radius: 100px 0 0 100px;
-			}
-			&:last-child {
-				border-radius: 0 100px 100px 0;
-				border: none;
-			}
-
-			img {
-				width: 30px;
-			}
-
-			div {
-				display: flex;
-				align-items: flex-start;
-				justify-content: center;
-				flex-direction: column;
-
-				span {
-					&:first-child {
-						&:hover {
-							font-weight: 700;
-						}
-					}
-					&:last-child {
-						font-weight: normal;
-						font-size: 0.7rem;
-					}
-				}
-			}
-		}
-	}
-}
+  }
+  .home-wrapper .home {
+	width: 100%;
+	height: 570px;
+	background: var(--bg-input);
+  }
+  .home-wrapper .home .container {
+	width: 80%;
+	margin: auto;
+  }
+  .home-wrapper .slab {
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr 1.5fr 1fr;
+	width: 80%;
+	margin: auto;
+	background: #fff;
+	border-radius: 100px;
+	position: relative;
+	top: 0;
+	transform: translateY(-50%);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2274509804);
+  }
+  .home-wrapper .slab > div {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: row;
+	border-right: 1px solid rgba(170, 170, 170, 0.5490196078);
+	height: 60px;
+	padding-left: 1rem;
+	cursor: pointer;
+	gap: 10px;
+  }
+  .home-wrapper .slab > div:hover {
+	font-weight: 700;
+	background: #fef6e8;
+  }
+  .home-wrapper .slab > div:first-child {
+	border-radius: 100px 0 0 100px;
+  }
+  .home-wrapper .slab > div:last-child {
+	border-radius: 0 100px 100px 0;
+	border: none;
+  }
+  .home-wrapper .slab > div img {
+	width: 30px;
+  }
+  .home-wrapper .slab > div div {
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+  }
+  .home-wrapper .slab > div div span:first-child:hover {
+	font-weight: 700;
+  }
+  .home-wrapper .slab > div div span:last-child {
+	font-weight: normal;
+	font-size: 0.7rem;
+  }

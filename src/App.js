@@ -1,5 +1,6 @@
 import './App.css';
 import Footer from './components/Footer/Footer';
+import Footertext from './components/Footertext/Footertext';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import Offers from './components/Offers/Offers';
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Offers />
       <Promo />
+      <Footertext />
       <Footer />
     </div>
   );

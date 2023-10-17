@@ -32,87 +32,60 @@ const Header2 = () => {
         </a>
         <section className="navigation-wrapper-2">
           <div className="navigation">
-            <a
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              to={"/flights"}
-            >
-              <MdOutlineFlight className="icon" />
-              <span>Flights</span>
-            </a>
-            <a
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              to={"/hotels"}
-            >
-              <RiHotelLine className="icon" />
-              <span>Hotels</span>
-            </a>
-            <a
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              to={"/home"}
-            >
-              <MdOutlineMapsHomeWork className="icon" />
-              <span>Homestays</span>
-            </a>
-            <a
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              to={"/home"}
-            >
-              <RiHotelLine className="icon" />
-              <span>Holiday Packages</span>
-            </a>
-            <a
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              to={"/trains"}
-            >
-              <FaTrain className="icon" />
-              <span>Trains</span>
-            </a>
-            <a
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              to={"/home"}
-            >
-              <MdDirectionsBus className="icon" />
-              <span>Buses</span>
-            </a>
-            <a
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              to={"/home"}
-            >
-              <AiOutlineCar className="icon" />
-              <span>Cabs</span>
-            </a>
-            <a
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              to={"/home"}
-            >
-              <VscGraphLine className="icon" />
-              <span>Forex</span>
-            </a>
-            <a
-              className={({ isActive }) =>
-                isActive ? "nav-link active" : "nav-link"
-              }
-              to={"/home"}
-            >
-              <MdHiking className="icon" />
-              <span>Activities</span>
-            </a>
+            <span>
+              <a className="nav-link" to={"/flights"}>
+                <MdOutlineFlight className="icon" />
+                <span>Flights</span>
+              </a>
+            </span>
+            <span>
+              <a className="nav-link" to={"/hotels"}>
+                <RiHotelLine className="icon" />
+                <span>Hotels</span>
+              </a>
+            </span>
+            <span>
+              <a className="nav-link" to={"/home"}>
+                <MdOutlineMapsHomeWork className="icon" />
+                <span>Homestays</span>
+              </a>
+            </span>
+            <span>
+              <a className="nav-link" to={"/home"}>
+                <RiHotelLine className="icon" />
+                <span>Holiday Packages</span>
+              </a>
+            </span>
+            <span>
+              <a className="nav-link" to={"/trains"}>
+                <FaTrain className="icon" />
+                <span>Trains</span>
+              </a>
+            </span>
+            <span>
+              <a className="nav-link" to={"/home"}>
+                <MdDirectionsBus className="icon" />
+                <span>Buses</span>
+              </a>
+            </span>
+            <span>
+              <a className="nav-link" to={"/home"}>
+                <AiOutlineCar className="icon" />
+                <span>Cabs</span>
+              </a>
+            </span>
+            <span>
+              <a className="nav-link" to={"/home"}>
+                <VscGraphLine className="icon" />
+                <span>Forex</span>
+              </a>
+            </span>
+            <span>
+              <a className="nav-link" to={"/home"}>
+                <MdHiking className="icon" />
+                <span>Activities</span>
+              </a>
+            </span>
           </div>
         </section>
         <div className="right-sec">
